@@ -215,16 +215,15 @@ img {
   border-radius: 4px;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  /* 
-  color: var(--wight-text);
-  
-  
-  
-  
- 
-  margin-bottom: 200px;
-  margin-left: 700px;
-  margin-right: 700px; */
+
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -261,16 +260,16 @@ img {
 }
 
 .nav-content {
-  display: inline-flex;
+  display: flex;
   list-style: none;
   margin-bottom: 0;
   margin-top: 0;
+  align-items: center;
 }
 
 .element-cont {
   margin-right: 30px;
   margin-bottom: 30px;
-  justify-content: center;
 }
 
 .container-content {
@@ -320,6 +319,11 @@ img {
   display: inline-flex;
   margin: 0;
   list-style: none;
+}
+
+.container-features p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .section-features {
@@ -380,6 +384,10 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-text);
+
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team {
@@ -387,8 +395,16 @@ img {
   margin-top: 0px;
   margin-bottom: 94px;
 }
+
 .team h4 {
   padding-top: 94px;
+}
+
+.team p {
+  display: block;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 28px;
 }
 
 .conainer-time-item {
