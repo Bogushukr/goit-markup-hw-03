@@ -84,7 +84,8 @@ img {
 .hag-port {
   background-color: var(--wight-text);
   border: 1px solid #ececec;
-  margin: 0 auto;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 94px;
 }
 
@@ -279,6 +280,10 @@ img {
   margin-right: 0px;
 }
 
+.content-section {
+  padding-bottom: 94px;
+}
+
 .container-content {
   width: 1230px;
   padding-left: 15px;
@@ -292,7 +297,6 @@ img {
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
-  margin-bottom: 94px;
   margin-top: 0px;
 }
 
@@ -345,7 +349,7 @@ img {
 
 .section-features {
   background-color: var(--wight-text);
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .container-features .section-label {
   width: 270px;
@@ -379,7 +383,7 @@ img {
 
 .contsiner-activity {
   margin-top: 0px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .container-activity img {
@@ -412,7 +416,8 @@ img {
 .section-team {
   width: 1600px;
   height: 648px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-title {
@@ -432,7 +437,7 @@ img {
 .team {
   background-color: var(--team-fon);
   margin-top: 0px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .team h4 {
@@ -469,7 +474,8 @@ img {
 }
 
 .partners-section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container-partners {
