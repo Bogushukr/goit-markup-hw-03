@@ -265,6 +265,8 @@ img {
   margin-bottom: 0;
   margin-top: 0;
   align-items: center;
+  margin-left: 250px;
+  margin-right: auto;
 }
 
 .element-cont {
@@ -468,6 +470,10 @@ img {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.container-address {
+  display: inline-block;
+  flex-direction: column;
 }
 
 .footer-map {
