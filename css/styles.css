@@ -284,12 +284,25 @@ img {
   padding-bottom: 94px;
 }
 
+.item-content {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
 .container-content {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container-fillihg .link {
+  padding-bottom: 20px;
+  text-align: center;
+  display: block;
 }
 
 .container-fillihg {
