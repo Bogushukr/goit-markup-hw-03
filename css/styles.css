@@ -303,6 +303,15 @@ img {
   padding-left: 24px;
 }
 
+.container-fillihg b {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text);
+}
+
 .container-fillihg {
   display: flex;
   flex-wrap: wrap;
@@ -332,16 +341,6 @@ img {
 .features-section {
   list-style: none;
 }
-
-/* .container-features p:last-of-type {
-  margin-right: 0px;
-} */
-
-/* .item-features {
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 30px;
-} */
 
 .img-element {
   margin-right: 0;
