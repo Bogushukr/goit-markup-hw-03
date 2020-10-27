@@ -205,6 +205,21 @@ img {
   width: 696px;
 }
 
+.btn-port:hover,
+.btn-port:focus {
+  background-color: var(--link-text-cl);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--wight-text);
+}
+
+.btn-port:active {
+  background-color: var(--link-text-cl);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--wight-text);
+}
+
 .btn-port {
   background: var(--second-fon);
   width: 73px;
@@ -214,8 +229,7 @@ img {
   padding-bottom: 6px;
   border-radius: 4px;
   text-align: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+  border: none;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
